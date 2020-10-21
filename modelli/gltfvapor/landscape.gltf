@@ -1,0 +1,201 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.0.5",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Plane.011",
+            "rotation" : [
+                -0.20281589031219482,
+                0.6577646732330322,
+                -0.7115314602851868,
+                -0.1411890685558319
+            ],
+            "scale" : [
+                2.841052532196045,
+                2.841052532196045,
+                2.841052532196045
+            ],
+            "translation" : [
+                5.157717704772949,
+                -2.435739517211914,
+                1.8052010536193848
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "Plane.012",
+            "rotation" : [
+                0.7303280234336853,
+                0.06352134048938751,
+                -0.11845774948596954,
+                0.6697415709495544
+            ],
+            "scale" : [
+                2.841052532196045,
+                2.841052532196045,
+                2.841052532196045
+            ],
+            "translation" : [
+                -6.962920188903809,
+                -1.919967532157898,
+                -7.392730712890625
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Default OBJ",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.10247589647769928,
+                    0.024532906711101532,
+                    0.07540342956781387,
+                    1
+                ],
+                "metallicFactor" : 0.9898989796638489,
+                "roughnessFactor" : 0.5
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Default OBJ.001",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.10247589647769928,
+                    0.024532906711101532,
+                    0.07540342956781387,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Plane.011",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1
+                    },
+                    "indices" : 2,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Plane.012",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 3,
+                        "NORMAL" : 4
+                    },
+                    "indices" : 2,
+                    "material" : 1
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 1336,
+            "max" : [
+                7.80986213684082,
+                7.798576831817627,
+                0.32135701179504395
+            ],
+            "min" : [
+                -7.804426193237305,
+                -7.800570011138916,
+                -4.740748882293701
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 1336,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5123,
+            "count" : 1902,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 1336,
+            "max" : [
+                7.80986213684082,
+                7.798576831817627,
+                0.32135701179504395
+            ],
+            "min" : [
+                -7.804426193237305,
+                -7.800570011138916,
+                -4.740748882293701
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 1336,
+            "type" : "VEC3"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 16032,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 16032,
+            "byteOffset" : 16032
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 3804,
+            "byteOffset" : 32064
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 16032,
+            "byteOffset" : 35868
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 16032,
+            "byteOffset" : 51900
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 67932,
+            "uri" : "landscape.bin"
+        }
+    ]
+}

@@ -1,0 +1,133 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.0.5",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "kajni",
+            "rotation" : [
+                0.004339311271905899,
+                0.7075624465942383,
+                -0.004345073364675045,
+                0.7066241502761841
+            ],
+            "scale" : [
+                0.21420851349830627,
+                0.21420851349830627,
+                0.21420851349830627
+            ],
+            "translation" : [
+                -17.250852584838867,
+                5.8740925788879395,
+                6.293121814727783
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Default OBJ.002",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.2403944730758667,
+                    0.8000000715255737,
+                    0.17484647035598755,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "kajni",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 3916,
+            "max" : [
+                70.27848052978516,
+                22.886075973510742,
+                4
+            ],
+            "min" : [
+                -19.341772079467773,
+                -0.8354430198669434,
+                0
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 3916,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 3916,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 11340,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 46992,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 46992,
+            "byteOffset" : 46992
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 31328,
+            "byteOffset" : 93984
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 22680,
+            "byteOffset" : 125312
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 147992,
+            "uri" : "scrittagiappo.bin"
+        }
+    ]
+}

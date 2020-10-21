@@ -1,0 +1,264 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.0.5",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "carretto",
+            "rotation" : [
+                -0.004250573460012674,
+                0,
+                0,
+                0.9999909400939941
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Default OBJ",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.8000000715255737,
+                    0.7095850706100464,
+                    0.17618300020694733,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "carretto",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1
+                    },
+                    "indices" : 2,
+                    "material" : 0
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 3,
+                        "NORMAL" : 4
+                    },
+                    "indices" : 5,
+                    "material" : 0
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 6,
+                        "NORMAL" : 7
+                    },
+                    "indices" : 8,
+                    "material" : 0
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 9,
+                        "NORMAL" : 10
+                    },
+                    "indices" : 11,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 65535,
+            "max" : [
+                8.114629745483398,
+                6.535111427307129,
+                5.307442665100098
+            ],
+            "min" : [
+                -8.062360763549805,
+                0.3641034960746765,
+                -6.847696304321289
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 65535,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5123,
+            "count" : 142665,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 65532,
+            "max" : [
+                8.702794075012207,
+                5.646514892578125,
+                5.824426651000977
+            ],
+            "min" : [
+                -12.552109718322754,
+                0.19782188534736633,
+                -7.183309555053711
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 65532,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5123,
+            "count" : 110721,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 20706,
+            "max" : [
+                9.166025161743164,
+                5.579692840576172,
+                5.978886127471924
+            ],
+            "min" : [
+                -8.571595191955566,
+                0.20803308486938477,
+                -7.267033100128174
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5126,
+            "count" : 20706,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5123,
+            "count" : 56100,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5126,
+            "count" : 200,
+            "max" : [
+                5.2189860343933105,
+                5.452057361602783,
+                5.165514945983887
+            ],
+            "min" : [
+                -5.271651268005371,
+                0.22052176296710968,
+                -0.6153129935264587
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 10,
+            "componentType" : 5126,
+            "count" : 200,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 11,
+            "componentType" : 5123,
+            "count" : 603,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 786420,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 786420,
+            "byteOffset" : 786420
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 285330,
+            "byteOffset" : 1572840
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 786384,
+            "byteOffset" : 1858172
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 786384,
+            "byteOffset" : 2644556
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 221442,
+            "byteOffset" : 3430940
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 248472,
+            "byteOffset" : 3652384
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 248472,
+            "byteOffset" : 3900856
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 112200,
+            "byteOffset" : 4149328
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2400,
+            "byteOffset" : 4261528
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2400,
+            "byteOffset" : 4263928
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1206,
+            "byteOffset" : 4266328
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 4267536,
+            "uri" : "carroarmato.bin"
+        }
+    ]
+}

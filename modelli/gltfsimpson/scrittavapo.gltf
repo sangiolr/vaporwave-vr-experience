@@ -1,0 +1,133 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.0.5",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "scrittavapo",
+            "rotation" : [
+                -3.2072264730231836e-05,
+                -0.0016147197457030416,
+                0.006453739944845438,
+                0.9999778866767883
+            ],
+            "scale" : [
+                0.09839683771133423,
+                0.09839683771133423,
+                0.09839683771133423
+            ],
+            "translation" : [
+                2.7948455810546875,
+                6.904058456420898,
+                1.3168182373046875
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Default OBJ.003",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.6618698239326477,
+                    0.0827941969037056,
+                    0.3171449303627014,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "scrittavapo",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 11966,
+            "max" : [
+                50.171173095703125,
+                13.025908470153809,
+                4
+            ],
+            "min" : [
+                -34.9997444152832,
+                -8.41961669921875,
+                0
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 11966,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 11966,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 35460,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 143592,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 143592,
+            "byteOffset" : 143592
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 95728,
+            "byteOffset" : 287184
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 70920,
+            "byteOffset" : 382912
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 453832,
+            "uri" : "scrittavapo.bin"
+        }
+    ]
+}

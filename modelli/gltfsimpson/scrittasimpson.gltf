@@ -1,0 +1,133 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.0.5",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "scrittasimps",
+            "rotation" : [
+                -0.0048726811073720455,
+                0.8950017690658569,
+                -0.009779720567166805,
+                -0.4459287226200104
+            ],
+            "scale" : [
+                0.23025867342948914,
+                0.23025868833065033,
+                0.23025868833065033
+            ],
+            "translation" : [
+                14.03944206237793,
+                23.28647804260254,
+                -1.5070075988769531
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Default OBJ.001",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.8000000715255737,
+                    0.583250880241394,
+                    0.006231686100363731,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "scrittasimps",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 14454,
+            "max" : [
+                92.68773651123047,
+                17.64398956298828,
+                4
+            ],
+            "min" : [
+                -45.00449752807617,
+                -2.2174875736236572,
+                0
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 14454,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 14454,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 43122,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 173448,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 173448,
+            "byteOffset" : 173448
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 115632,
+            "byteOffset" : 346896
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 86244,
+            "byteOffset" : 462528
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 548772,
+            "uri" : "scrittasimpson.bin"
+        }
+    ]
+}

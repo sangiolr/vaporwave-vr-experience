@@ -1,0 +1,133 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.0.5",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "scrittatrump",
+            "rotation" : [
+                0.984660267829895,
+                0.0002034057688433677,
+                0.17447863519191742,
+                -0.0011479089735075831
+            ],
+            "scale" : [
+                -0.12539838254451752,
+                -0.12539838254451752,
+                -0.12539838254451752
+            ],
+            "translation" : [
+                3.3421223163604736,
+                12.05701732635498,
+                12.226679801940918
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Default OBJ.001",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.08027191460132599,
+                    0.5872141122817993,
+                    0.8000000715255737,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "scrittatrump",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 6924,
+            "max" : [
+                97.19999694824219,
+                3,
+                4
+            ],
+            "min" : [
+                -94.68571472167969,
+                -17,
+                0
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 6924,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 6924,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 16272,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 83088,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 83088,
+            "byteOffset" : 83088
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 55392,
+            "byteOffset" : 166176
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 32544,
+            "byteOffset" : 221568
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 254112,
+            "uri" : "scrittatrumpwave.bin"
+        }
+    ]
+}
