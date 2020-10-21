@@ -1,0 +1,69 @@
+#myVideo {
+   position: fixed;
+  right: 0;
+left: 0;
+ 
+max-width: 100%; 
+    
+    
+    
+}
+h1 {font-family:"Helvetica";
+color: white;}
+
+.bottone {
+    position: absolute;
+
+    width: 170px;
+    height: 100px;
+background-color: #cc55db;
+    border-radius: 5%;
+    padding-left: 20px;
+    padding-top: 26px;
+    bottom: 150px;
+
+}
+.container-fluid{
+    position: absolute;
+ height: 100%;
+}
+.row{
+    height: 100%;
+}
+
+
+
+
+
+/* 1440*/
+
+@media screen and (max-width: 1440px) {
+
+    
+}
+
+
+
+/* Mobile*/
+
+@media screen and (max-width: 768px) {
+   .bottone {
+    position: absolute;
+
+    width: 100px;
+    height: 50px;
+background-color: #cc55db;
+    border-radius: 5%;
+    padding-left: 18px;
+    padding-top: 15px;
+       bottom: 45px; }
+    
+    h1 {font-family:"Helvetica";
+color: white;
+    font-size: 15pt}
+    
+
+    
+
+
+}
