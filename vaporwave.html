@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+       <head>
+ 
+     <script src="https://aframe.io/releases/1.0.0/aframe.min.js"></script>
+           <script src="https://supereggbert.github.io/aframe-htmlembed-component/dist/build.js"></script>
+           
+           
+
+
+                   
+       </head>
+
+
+<body>
+    
+             <a-scene fog="type: exponential; color: #c67bcb; density: 0.015;" raycaster="far: 100; objects: [link];" cursor="rayOrigin: mouse" camera-position> 
+         
+                 
+                 
+                 
+<!-- PORTALI -->
+                 
+         <a-assets>
+      
+        <img id="thumbSimpson" crossOrigin="anonymous" src="imgvapor/giallo.png" >
+        <img id="thumbTrump" crossOrigin="anonymous" src="imgvapor/azzurro.png">
+        
+      </a-assets>          
+           <a-link href="simpsonwave.html" position="-6.257 1.5 5.152" rotation="0 145 0" image="#thumbSimpson"></a-link>
+      <a-link href="trumpwave.html" position="3.423 1.598 5.271" rotation="0 220 0" image="#thumbTrump"></a-link>
+          
+                  <a-entity id="leftHand" link-controls="hand: left"></a-entity>
+      <a-entity id="rightHand" link-controls="hand: right"></a-entity> 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+<!-- BACKGROUND -->            
+        <a-assets>
+    <img id="grid" src="imgvapor/pavimento.jpg">
+    <img id="skyTexture" src="imgvapor/sfondo.jpg">
+  </a-assets>
+  
+  <a-cylinder id="grid" src="#grid" radius="30" height="0.1"></a-cylinder>
+
+  <a-sky id="background" src="#skyTexture" theta-length="90" radius="30"></a-sky>           
+                 
+<!-- SOLE -->
+                
+<a-assets>
+    <a-asset-item id="sundef" src="modelli/gltfvapor/sundef.gltf"></a-asset-item>
+  </a-assets>
+  <a-entity gltf-model="#sundef" rotation="0 180 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 80000;"></a-entity>    
+                 
+<!-- NUVOLE -->              
+    <a-assets>
+    <a-asset-item id="nuvolette" src="modelli/gltfvapor/nuvolette.gltf"></a-asset-item>
+  </a-assets>
+  <a-entity gltf-model="#nuvolette" animation="property: rotation; to: 0 -360 0; loop: true; dur: 100000;"></a-entity>
+               
+                 
+                 <!-- COLONNE -->              
+    <a-assets>
+    <a-asset-item id="colonne" src="modelli/gltfvapor/colonnine.gltf"></a-asset-item>
+  </a-assets>
+  <a-entity gltf-model="#colonne" position="0 0 -6.045" rotation="0 -5.004 0" scale="0.800 0.870 0.870"></a-entity>
+
+<!-- MONTAGNE -->              
+    <a-assets>
+    <a-asset-item id="landscape" src="modelli/gltfvapor/landscape.gltf"></a-asset-item>
+  </a-assets>
+  <a-entity gltf-model="#landscape"></a-entity>    
+   <!-- PARTICLE -->              
+    <a-assets>
+    <a-asset-item id="particle" src="modelli/gltfvapor/particle.gltf"></a-asset-item>
+  </a-assets>
+  <a-entity gltf-model="#particle" position="-0.820 6.894 0" rotation="0 -60 0" scale="2 2 2"></a-entity>         
+                 
+                   <!--BOTTIGLIA FIJI-->              
+    <a-assets>
+    <a-asset-item id="fiji" src="modelli/gltfvapor/bottigliafiji.gltf"></a-asset-item>
+  </a-assets>
+  <a-entity gltf-model="#fiji" position="0 0 -6.045" rotation="0 -5.004 0" scale="0.800 0.870 0.870"></a-entity>    
+                 
+<!--FLAMINGO-->              
+    <a-assets>
+    <a-asset-item id="flamingo" src="modelli/gltfvapor/flamingo.gltf"></a-asset-item>
+  </a-assets>
+  <a-entity gltf-model="#flamingo" position="1.833 0.218 -5.118"></a-entity>            
+                              
+ <!--PALME-->              
+    <a-assets>
+    <a-asset-item id="palme" src="modelli/gltfvapor/palme.gltf"></a-asset-item>
+  </a-assets>
+  <a-entity gltf-model="#palme" position="4.220 0.218 -6.915" rotation="0 -19.670 0"></a-entity>            
+                 
+                 
+                 
+                 
+<!-- SCRITTA VAPORWAVE -->              
+    <a-assets>
+    <a-asset-item id="scrittavapo" src="modelli/gltfvapor/scrittavapo.gltf"></a-asset-item>
+  </a-assets>
+  <a-entity gltf-model="#scrittavapo" position="-9.562 0.943 -13.61" rotation="23.214 30.245 1.243"></a-entity>             
+                 
+                 
+                 
+<!-- VAPORWAVE INTRO IMG -->              
+<!--1-->
+    <a-assets>
+    <img id="vapordescri1" src="imgvapor/descri1.jpg">
+  </a-assets>
+
+  <a-image src="#vapordescri1" position="-6.128 2.698 -11.072" rotation="0 30 0" scale="8 5 1"></a-image>  
+                 
+ <!--2-->
+    <a-assets>
+    <img id="vapordescri2" src="imgvapor/descri2.jpg">
+  </a-assets>
+
+  <a-image src="#vapordescri2" position="0.834 2.638 -13.39" scale="4 5 1" ></a-image>  
+                  
+  <!--3-->
+    <a-assets>
+    <img id="vapordescri3" src="imgvapor/descri3.jpg">
+  </a-assets>
+
+  <a-image src="#vapordescri3" position="5.808 2.598 -12.48" rotation="0 -22-116 0" scale="4 5 1" ></a-image>    
+
+   
+<!--SCRITTATRUMPWAVE-->
+        
+       <a-assets>
+    <a-asset-item id="scrittatrump" src="modelli/gltfvapor/scrittatrumpwave.gltf"></a-asset-item>
+  </a-assets>
+  <a-entity gltf-model="#scrittatrump" position="0.480 0.164 5.124" rotation="0 60 0" scale="0.3 0.3 0.3"></a-entity>  
+                 
+<!--SIMPSONSCRITTA-->
+                
+<a-assets>
+    <a-asset-item id="scrittasimpson" src="modelli/gltfvapor/scrittasimpson.gltf"></a-asset-item>
+  </a-assets>
+  <a-entity gltf-model="#scrittasimpson" position="-6.650 -1.663 3.236" rotation="0 -90 0" scale="0.2 0.2 0.2"></a-entity> 
+  
+    <!--IMG-->  
+    <a-assets>
+    <img id="windows" src="imgvapor/windows1.png">
+  </a-assets>
+
+  <a-image src="#windows" position="10.508 3.030 1.706" rotation="0 -110 0" scale="6 7 0"></a-image>    
+                 
+    <a-assets>
+    <img id="foto2" src="imgvapor/foto2.png">
+  </a-assets>
+
+  <a-image src="#foto2" position="-5.165 2.288 11.452" rotation=" 0 -210 0" scale="6 5 1"></a-image> 
+                 
+
+                 
+ 
+          
+                 
+                 
+<!-- LUCI -->               
+
+         <a-entity light="color: #ccccff; intensity: 1; type: ambient;"></a-entity>
+
+      <a-entity light="color: #ffa9ff; type: directional;" position="0 18.924 0"></a-entity>
+     <a-entity light="color: #ff8cf9 ; type: directional; intensity: 0.600;" position="-23.65 24.532 -0.157"></a-entity>
+      <a-entity light="color: white; type: ambient;"></a-entity>
+                 
+<!-- TESTI        
+                 
+         <a-entity text="value:La sintetizzata rivincita postmoderna degli anni ’90.;"></a-entity> 
+
+            <a-entity text="value:L’estetica fatta web formattata Lo-Fi.;"></a-entity>         
+            <a-entity text="value:Il fiore della nostalgia che nasce dalla carcassa della new-wave indipendente.;"></a-entity>   -->                  
+                 
+                 
+                 
+ 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+              </a-scene>    
+
+    
+</body>
+
+</html>

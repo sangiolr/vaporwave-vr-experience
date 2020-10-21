@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+       <head>
+ 
+     <script src="https://aframe.io/releases/1.0.0/aframe.min.js"></script>
+           <script src="https://supereggbert.github.io/aframe-htmlembed-component/dist/build.js"></script>
+  
+           
+           <script>
+		AFRAME.registerComponent('play-pause', {
+			init: function () {
+				var myVideo = document.querySelector('#work');
+				var videoControls = document.querySelector('#videoControls');
+				this.el.addEventListener('click', function () {
+					if (myVideo.paused) {
+						myVideo.play();
+						videoControls.setAttribute('src', '#pause');
+					} else {
+						myVideo.pause();
+						videoControls.setAttribute('src', '#play');
+					}
+				});
+			}
+		});
+               
+
+	</script>
+
+</head>
+    
+    
+    
+    <body>
+    
+    
+<a-scene>
+    
+                     
+<!-- PORTALI -->
+                 
+         <a-assets>
+       
+        <img id="thumbVapor" crossOrigin="anonymous" src="imgvapor/giallo.png">
+   
+        
+      </a-assets>          
+           <a-link href="vaporwave.html" position="17.363 3.600 17.514" rotation="4.406 -130 0" scale="2 2 2"></a-link>
+   
+
+                  <a-entity id="leftHand" link-controls="hand: left"></a-entity>
+      <a-entity id="rightHand" link-controls="hand: right"></a-entity> 
+        
+    
+    
+            
+<!-- BACKGROUND -->            
+        <a-assets>
+    <img id="grid" src="imgsimpson/pavimentosimpson.jpg">
+    <img id="skyTexture" src="imgsimpson/sfondosimpson.jpg">
+  </a-assets>
+  
+  <a-cylinder id="grid" src="#grid" radius="30" height="0.1"></a-cylinder>
+
+  <a-sky id="background" src="#skyTexture" theta-length="90" radius="30"></a-sky>      
+            
+        
+    <!--CIAMBELLA-->
+              
+<a-assets>
+    <a-asset-item id="ciambella" src="modelli/gltfsimpson/ciambella.gltf"></a-asset-item>
+  </a-assets>
+  <a-entity gltf-model="#ciambella" position="-16.36 6.086 -5.606" rotation="90 40 0" scale="6 4 6" animation="property: rotation; to: 90 360 0; loop: true; dur: 20000"></a-entity>       
+<!--SIMPSONSCRITTA-->
+                
+<a-assets>
+    <a-asset-item id="scrittasimpson" src="modelli/gltfsimpson/scrittasimpson.gltf"></a-asset-item>
+  </a-assets>
+  <a-entity gltf-model="#scrittasimpson" position="8.137 -3.311 -5.757" rotation="0 85.220 0" scale="0.5 0.5 0.5"></a-entity> 
+            
+   <!--HOMER-->
+            
+<a-assets>
+    <a-asset-item id="homerino" src="modelli/gltfsimpson/homerino.gltf"></a-asset-item>
+  </a-assets>
+  <a-entity gltf-model="#homerino" position="18.510 11.656 5.840" rotation="0 0 0" scale="12 12 12" animation="property: rotation; to: 0 540 0; loop: true; dur: 10000"></a-entity> 
+            
+            
+            
+      <!--ELEMENTI-->
+                
+<a-assets>
+    <a-asset-item id="modellini" src="modelli/gltfsimpson/modellini.gltf"></a-asset-item>
+  </a-assets>
+  <a-entity gltf-model="#modellini" position="-6.725 2.246 -14.62" scale="2 2 2"></a-entity>    
+            <a-assets>
+    <a-asset-item id="elementi" src="modelli/gltfsimpson/elementi.gltf"></a-asset-item>
+  </a-assets>
+  <a-entity gltf-model="#elementi" position="2.782 20.845 -2.417" rotation="0 45 0" scale="3 3 3"></a-entity> 
+        
+                   
+
+            
+<!--DUFF-->
+                
+<a-assets>
+    <a-asset-item id="duffcan" src="modelli/gltfsimpson/duffcan.gltf"></a-asset-item>
+  </a-assets>
+  <a-entity gltf-model="#duffcan" position="18.261 0 5.883" rotation="0 270 0"></a-entity>  
+            
+            
+ <!--TESTO SIMPSONWAVE -->              
+    <a-assets>
+    <img id="descrizionesimpson" src="imgsimpson/simpsonwavedescrizione.jpg">
+  </a-assets>
+
+  <a-image src="#descrizionesimpson" position="9.253 4.631 -11.120" rotation="0 -42 0" scale="20 6 0"></a-image>  
+          
+<!-- SCRITTA VAPORWAVE -->              
+    <a-assets>
+    <a-asset-item id="scrittavapo" src="modelli/gltfsimpson/scrittavapo.gltf"></a-asset-item>
+  </a-assets>
+  <a-entity gltf-model="#scrittavapo" position="19.825 0 14.842" rotation="0 -130 0"></a-entity>        
+    
+    
+    
+    
+    
+    
+  <!--SIMPSONWAVE IMG--> 
+
+<!--1-->
+    <a-assets>
+    <img id="simpsonfoto1" src="imgsimpson/simpsonfoto1.jpg">
+  </a-assets>
+
+  <a-image src="#simpsonfoto1" position="-23.64 9.206 3.454" rotation="0 98.310 0" scale="8 8 8"></a-image>  
+            
+   <!--2-->
+    <a-assets>
+    <img id="simpsonfoto2" src="imgsimpson/simpsonfoto2.jpg">
+  </a-assets>
+
+  <a-image src="#simpsonfoto2" position="12.644 17.869 -13.76" rotation="-10 140 0" scale="10 10 0"></a-image> 
+            
+ 
+  
+<!--4-->
+    <a-assets>
+    <img id="simpsonfoto4" src="imgsimpson/simpsonfoto4.jpg">
+  </a-assets>
+
+  <a-image src="#simpsonfoto4" position="-16.45 19.038 -9.998" rotation="45 50 0" scale="16 10 1"></a-image>            
+ <!--5-->
+    <a-assets>
+    <img id="simpsonfoto5" src="imgsimpson/simpsonfoto5.jpg">
+  </a-assets>
+
+  <a-image src="#simpsonfoto5" position="-16.102 6.582 16.224" rotation="0 120 0" scale="16 10 1"></a-image>            
+                       
+            
+            
+            
+            
+            
+            
+       		<!-- Camera -->
+<a-camera>
+			<a-cursor color="#ff03f0"></a-cursor>
+		</a-camera>
+
+  
+
+            
+            
+            
+            
+    <!--VIDEO 1-->
+     <!-- Asset Management System -->
+        <!-- DOWNLOAD, PRELOAD YOUR VIDEO, AND UPDATE ITS ID AND FILE NAME -->
+        <a-assets>
+        	<img id="play" src="L26-ASSETs/play.png">
+        	<img id="pause" src="L26-ASSETs/pause.png">
+        	<video id="work" src="L26-ASSETs/simpson1.mp4" loop="true"></video>
+        </a-assets>
+		
+
+		
+		<!-- Video 16:9 -->
+		<!-- UPDATE YOUR VIDEO'S ID -->
+		<a-video src="#work" width="8" height="4.5" position="-0.905 6.908 22.337" rotation="0 179.97 0" scale="2 2 2">
+			<!-- Play/Pause -->
+			<a-image id="videoControls" src="#play" position="0 -3 0" scale="0.5 0.5 1"
+					 play-pause>
+			</a-image>
+		</a-video>    
+            
+       
+<!--RETROVIDEO-->
+        <a-box color="#a766b5" depth="2" height="4" width="0.5" position="-0.941 3.654 23.365" rotation="0 90 0" scale="0.5 5 10"></a-box>
+        
+        
+        
+         <!-- TESTI  -->        
+                 
+         <a-entity text="value:La Simpsonwave esiste davvero
+O forse potrebbe essere solo uno scherzo, non lo sappiamo, ma siamo sicuri di una cosa: è una bomba.;" position="0 0.036 15.476" rotation="-90 180 0" scale="25 25 25"></a-entity> 
+
+            <a-entity text="value:il primo video definibile Simpsonwave è spuntato su internet nell'ottobre del 2015;" position="-0.407 12.703 23.155" rotation="0 180 0" scale="15 15 15"></a-entity>      
+    
+                <a-entity text="value:“Sinceramente credevo che la Simpsonwave fosse uno scherzo”;" position="0 0.079 7.728" rotation="-90 180 0" scale="20 20 20"></a-entity>        
+             
+                 
+            <a-entity text="value:“Quel virus incurabile che è la vaporwave, e che si è insidiato in quella parte di cervello in cui i millennial conservano i loro ricordi di quando erano bambini, cioè tutte le serie tivù del prime time.”;" position="1.453 0.098 -8.016" rotation="-90 -22.50 0"  scale="20 20 20"></a-entity>        
+        
+        
+        
+        
+        
+        
+        
+                
+        <!--LUCI-->
+                    
+<a-entity light="color: #ffccff; intensity: 1.500; type: point;" position="0 10.515 6.582"></a-entity>
+        
+        </a-scene>
+        
+    
+    </body>
+</html>
